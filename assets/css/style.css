@@ -1,0 +1,260 @@
+/* Main structure */
+body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	width: 100%;
+	font-family: 'Delius', cursive;
+}
+
+.container
+{
+	width: 70%;
+	margin:auto;
+}
+
+.row
+{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+
+.col
+{
+	width: 49%;
+	display: inline-block;
+}
+
+.col-30
+{
+	width: 30%;
+	display: inline-block;
+	padding: 1.5%;
+}
+
+.col-35
+{
+	width: 35%;
+	display: inline-block;
+}
+
+
+/*Navbar and Video*/
+
+video
+{
+	width: 99.4vw;
+}
+
+.nav
+{
+	margin-top: -5px;
+	list-style: none;
+	display: block;
+	width: 97.38%;
+	height: 80px;
+	text-align: center;
+}
+.nav li
+{
+	vertical-align: middle;
+	padding: 30px 15px 15px 15px;
+	display: inline-block;
+}
+
+li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+#specialli
+{
+	padding: 10px 0 0 0;
+	float: left;
+}
+.logo
+{
+	width: 170px;
+}
+
+.logoSmaller
+{
+	width: 100px;
+}
+
+.sticky {
+	position: fixed;
+	 top: 0;
+	 width: 100%;
+	 z-index: 2;
+	 opacity: 0.98;
+}
+
+/* Content */
+
+#smaller
+{
+	width: 110%;
+}
+
+h1
+{
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+	font-size: 300%;
+}
+
+hr
+{
+	margin-bottom: 50px;
+	opacity: 0.3;
+}
+
+.container p
+{
+	line-height: 30px;
+	text-align: left;
+}
+
+h2
+{
+	text-align: center;
+	margin: auto;
+}
+
+/*Homemade section - includes special alterations */
+#homemade
+{
+	width: 100%;
+	background-image: url(../images/spoon.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 50%;
+	padding-bottom: 200px;  /* change to non-pixel*/
+}
+
+#homemade p
+{
+	line-height: 30px;
+}
+
+#homemade .col-35
+{
+	margin-left: 15%;
+}
+
+.leftAlign
+{
+	text-align: left;
+}
+
+/* Alteration to can size */
+
+.col-30 img
+{
+	max-width: 300px;
+}
+
+/* Alterations to personalise */
+
+.list li
+{
+	color: #737E86;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	line-height: 30px;
+}
+
+#oil
+{
+	width: 65%;
+	vertical-align: right;
+	margin-left: 50px; /* consider changing to non-pixel */
+	margin-bottom: 50px; /* consider changing to non-pixel */
+}
+
+#crouton
+{
+	width: 100%;
+}
+
+.top
+{
+	vertical-align: top;
+}
+
+/* Bottom */
+.footer
+{
+	width: 100%;
+	padding: 20px 0;
+	margin-top: 30px;
+}
+.footerText
+{
+	width: 50%;
+	color: white;
+	font-size: 80%;
+	margin: auto;
+	line-height: 30px;
+}
+
+/* Up icon */
+
+.upIcon
+{
+	position: fixed;
+	font-size: 250%;
+	color: #888888;
+	bottom: 15px;
+	right: 15px;
+}
+
+/*Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    background: #888888;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #888888; 
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #231f20; 
+    border-radius: 10px;
+}
+
+/* Colors */
+.dark
+{
+	background-color: #231f20;
+}
+
+@media only screen and (max-width : 1024px) 
+{
+
+}
+
+@media only screen and (max-width : 768px) 
+{
+
+}
+
+@media only screen and (max-width : 480px) 
+{
+
+}
+@media only screen and (max-width : 320px) 
+{
+
+}
