@@ -243,6 +243,40 @@ h2
 @media only screen and (max-width : 1024px) 
 {
 
+.col
+{
+	display: block;
+	width: 100%;
+}
+.col-30
+{
+	display: block;
+	width: 100%;
+	padding: 0;
+	text-align: center;
+}
+
+.col-30 img
+{
+	max-width: 450px;
+}
+
+.col-35
+{
+	display: block;
+	width: 70%;
+}
+#homemade
+{
+	background-image: none;
+	padding-bottom: 50px;
+}
+
+.oilCenter
+{
+text-align: center;
+}
+
 }
 
 @media only screen and (max-width : 768px) 
@@ -252,7 +286,10 @@ h2
 
 @media only screen and (max-width : 480px) 
 {
-
+.col-30 img
+{
+	max-width: 250px;
+}
 }
 @media only screen and (max-width : 320px) 
 {

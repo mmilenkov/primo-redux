@@ -1,5 +1,8 @@
 console.log("Connected");
 
+
+/* Navbar scroll - full page */
+
 window.onscroll = function () {scrollingMenu()};
 
 var navbar = document.getElementById("navbar");
@@ -17,3 +20,7 @@ function scrollingMenu ()
 		navbar.classList.remove("sticky");
 	}
 }
+
+/* Navbar collapse - Responsive*/
+
+/* Form authentication */
