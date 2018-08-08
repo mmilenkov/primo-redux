@@ -65,6 +65,7 @@ video
 	vertical-align: middle;
 	padding: 30px 15px 15px 15px;
 	display: inline-block;
+	color: white;
 }
 
 li a
@@ -83,12 +84,13 @@ li a
 	width: 170px;
 }
 
-.logoSmaller
+.navExpand
 {
-	width: 100px;
+	display: none;
 }
 
-.sticky {
+.sticky 
+{
 	position: fixed;
 	 top: 0;
 	 width: 100%;
@@ -246,6 +248,14 @@ h2
 @media only screen and (max-width : 1024px) 
 {
 
+video
+{
+	width: 99.8vw;
+}
+.nav
+{
+	width: 95.8%;
+}
 .col
 {
 	display: block;
@@ -285,6 +295,72 @@ text-align: center;
 @media only screen and (max-width : 768px) 
 {
 
+video
+{
+	width: 99.9vw;
+}
+.rowMenu
+{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+.colMenu
+{
+	width: 49%;
+	display: inline-block;
+}
+.nav
+{
+	margin-top: -5px;
+	padding: 0;
+	list-style: none;
+	display: block;
+	width: 100%;
+	height: 80px;
+}
+.navExpand
+{
+	font-size: 300%;
+	position: relative;
+	display: inline-block;
+	float: right;
+}
+.menuLi
+{
+	padding: 0 30px 0 0 !important;
+	float: right;
+}
+.navResponsive
+{
+ position: absolute;
+ width: 100%;
+ visibility: hidden;
+}
+
+.navVisibility
+{
+	visibility: visible !important;
+}
+.nav li
+{
+	display: block;
+	color: white;
+}
+
+li a
+{
+	text-decoration: none;
+}
+
+#specialli
+{
+	padding: 15px 0px 0px 30px;
+}
+.logo
+{
+	width: 150px;
+}
 }
 
 @media only screen and (max-width : 480px) 

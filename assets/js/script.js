@@ -22,5 +22,14 @@ function scrollingMenu ()
 }
 
 /* Navbar collapse - Responsive*/
+var open = document.getElementById("expand");
+var responsiveNav = document.getElementById("collapsable")
 
-/* Form authentication */
+function navExpCol ()
+{
+responsiveNav.classList.toggle("navVisibility");
+};
+
+if(open){
+  open.addEventListener('click', navExpCol, false);
+};

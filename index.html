@@ -19,12 +19,21 @@
 
 <div id="navbar">
 	<ul class="nav dark">
-		<li id="specialli"><img src="assets/images/logo.png" class="logo" id="logoA"></li>
-		<li><a href=""><strong>HOME</strong></a></li>
-		<li><a href="#who"><strong>WHO WE ARE</strong></a></li>
-		<li><a href="#ingredients"><strong>INGREDIENTS</strong></a></li>
-		<li><a href="#homemade"><strong>PRODUCTS</strong></a></li>
-		<li><a href=""><strong>CONTACT US</strong></a></li>
+		<div class="rowMenu">
+			<div class="colMenu">
+				<li id="specialli"><img src="assets/images/logo.png" class="logo" id="logoA"></li>
+			</div>
+			<div class="colMenu">
+				<div class="dark navExpand"><span id="expand"><li class="menuLi"><i class="fas fa-bars"></i></li></span></div>
+			</div>
+		</div>
+		<div id="collapsable" class="navResponsive dark">
+			<li><a href=""><strong>HOME</strong></a></li>
+			<li><a href="#who"><strong>WHO WE ARE</strong></a></li>
+			<li><a href="#ingredients"><strong>INGREDIENTS</strong></a></li>
+			<li><a href="#homemade"><strong>PRODUCTS</strong></a></li>
+			<li><a href=""><strong>CONTACT US</strong></a></li>
+		</div>
 	</ul>
 </div>
 
