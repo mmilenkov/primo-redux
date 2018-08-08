@@ -24,6 +24,7 @@ function scrollingMenu ()
 /* Navbar collapse - Responsive*/
 var open = document.getElementById("expand");
 var responsiveNav = document.getElementById("collapsable")
+var close = document.getElementById("close");
 
 function navExpCol ()
 {
@@ -33,3 +34,13 @@ responsiveNav.classList.toggle("navVisibility");
 if(open){
   open.addEventListener('click', navExpCol, false);
 };
+
+/* Consider adding possibly?
+function navClose ()
+{
+	responsiveNav.classList.remove("navVisibility");
+}
+if(close){
+	close.addEventListener('click', navClose, false);
+};
+*/
