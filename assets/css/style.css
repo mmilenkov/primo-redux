@@ -218,9 +218,14 @@ h2
 {
 	position: fixed;
 	font-size: 250%;
-	color: #888888;
 	bottom: 15px;
 	right: 15px;
+}
+
+.upIcon a
+{
+	text-decoration: none;
+	color: #888888;
 }
 
 /*Scrollbar */
