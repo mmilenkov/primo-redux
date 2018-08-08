@@ -45,7 +45,11 @@ body
 
 
 /*Navbar and Video*/
-
+.video /* Backup did not work on mobile */
+{
+	background-image: url(../images/backup.png);
+	background-repeat: no-repeat;
+}
 video
 {
 	width: 99.4vw;
@@ -288,6 +292,13 @@ video
 .oilCenter
 {
 text-align: center;
+}
+
+#oil
+{
+	margin-left: 0;
+	margin-right: 0;
+	margin: auto;
 }
 
 }
