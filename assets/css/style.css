@@ -45,9 +45,17 @@ body
 
 
 /*Navbar and Video*/
+.video
+{
+	padding: 0;
+	margin: 0 auto;
+	vertical-align: center;
+}
 video
 {
 	width: 99.4vw;
+	margin: 0;
+	padding: 0;
 }
 
 .nav
